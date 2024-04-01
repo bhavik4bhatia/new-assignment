@@ -1,0 +1,192 @@
+/* general styling */
+html{scroll-behavior: smooth;}
+body{margin: 0px;}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'poppins', 'sans-serif';
+}
+a,p,li{
+    font-family: 'lato', 'sans-serif';
+}
+header p{
+    text-align: center;
+}
+header a:link{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+/* Body styles */
+.candy{
+    background-image: url("../Cssassn3/img/candy5.jpg"); 
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    width: 680px;
+    height: auto;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.candy-1 div{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-grow: 1;
+    background-color: #f4f4f4;
+    opacity: 0.8;
+}
+
+.candy-1 div img{
+    width: 300px;
+    height: 150px;
+}
+
+.candy-1 h1{
+    text-align: center;
+    font-size:30px;
+}
+
+.candy-1 header{
+    width: 680px;
+    height: 125px;
+    padding: 5px 10px;
+}
+
+.candy-1 header nav menu{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #f4f4f4;
+    opacity: 0.7;
+    margin: 1% 0%;
+    font-size: xx-large;
+    width: 630px;
+}
+
+.candy-1 nav menu li a{
+    padding: 0px 10px; 
+}
+
+.candy-1 nav li a:hover {
+    color: #ffcc00; 
+    background-color: aquamarine;
+}
+
+.hover-effect {
+    transition: transform 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+    transform: scale(1.1);
+}
+
+.candy-masthead{
+  width: 680px;
+  height: auto;
+  padding: 15px;
+  justify-content: center;
+  margin: 1% 0%;
+}
+
+.candy-masthead h1{
+    font-size: 62px;
+    text-shadow: 4px 2px 4px rgba(0,0,0,.5);
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    opacity: 0.7;
+    margin: 1% 0%;
+}
+
+.candy-masthead div img{
+    padding: 5px;
+    width: 280px;
+    height: auto;
+    opacity: 0.84;
+    margin: 1% 0%;
+}
+
+.candy-intro>h2, .candy-description>h2{
+    text-align: center;
+}
+
+.candy-intro, .candy-description{
+    width: 680px;
+    height: 600px;
+    padding: 15px;
+    background-color:#fff ;
+    opacity: 0.7;
+    color: black;  
+}
+
+/* Footer Styling */
+.candy footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.7;
+    width: 670px;
+    height: auto;
+    margin: 1% 0%;
+    display: flex;
+}
+
+/* Contact Form Styling */
+form {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Newsletter Form Styling */
+.information{
+    width: 80%;
+    padding: 10px;
+    margin: 20px ;
+    display: flex;
+}
+
+/* Social Media Styling */
+.social-media menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media menu li {
+    justify-content: center;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media menu li a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.social-media menu li img {
+    transition: transform 0.3s;
+}
+
+.social-media menu li:hover img {
+    transform: scale(1.2);
+}
+
+.social-media menu li:hover a {
+    color: #4CAF50;
+}
